@@ -1,0 +1,44 @@
+html, body {
+    font-family: Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: 24px;
+}
+
+#main {
+    width: 1024px;
+    max-width: 100%;
+    display: flex;
+    margin: auto;
+}
+
+.tile {
+    flex: 1;
+    margin: 5px;
+    text-align: center;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+.bit {
+    color: white;
+    font-size: 1.5em;
+    background-color: orange;
+    padding: 20% 40% 20% 40%;
+    cursor: pointer;
+}
+
+#decimal {
+    flex: 3;
+    color: #000;
+}
+
+#decimal-value {
+    font-size: 2em;
+    color: #6060ff;
+}
