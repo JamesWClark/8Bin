@@ -19,7 +19,7 @@ html, body {
 
 #explanation {
     font-family: monospace;
-    font-size: 2em;
+    font-size: 1.7em;
 }
 
 
@@ -53,8 +53,6 @@ html, body {
     color: #333;
     background-color:darkorange;    
 }
-
-
 
 #decimal {
     flex: 3;
