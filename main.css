@@ -39,12 +39,12 @@ html, body {
 }
 
 .bit.on {
-    background-color: orangered;
+    background-color:darkorange;
 }
 
 .bit:hover {
     color: #333;
-    background-color:darkorange;
+    background-color: orangered;
 }
 
 
