@@ -5,17 +5,23 @@ html, body {
     font-size: 24px;
 }
 
-#main, #instructions {
+#main, #instructions, #explanation {
     width: 1024px;
     max-width: 100%;
     display: flex;
     margin: auto;
 }
 
-#instructions {
+#instructions, #explanation {
     display: block;
     padding: 40px 0 40px 0;
 }
+
+#explanation {
+    font-family: monospace;
+    font-size: 2em;
+}
+
 
 .tile {
     flex: 1;
@@ -31,6 +37,7 @@ html, body {
 }
 
 .bit {
+    border-radius: 7px;
     color: white;
     font-size: 1.5em;
     background-color: orange;
@@ -39,12 +46,12 @@ html, body {
 }
 
 .bit.on {
-    background-color:darkorange;
+    background-color: orangered;
 }
 
 .bit:hover {
     color: #333;
-    background-color: orangered;
+    background-color:darkorange;    
 }
 
 
